@@ -1,0 +1,77 @@
+
+.body{
+margin:0;
+padding:0;
+}
+.header {
+height:200px;
+background:url('../img/1.jpg');
+}
+.logotext{
+color:blue;
+text-shadow: 1px 1px 1px black;
+float:right;
+padding:10px;
+margin:0;
+}
+.logo{
+height:200px;
+}
+.menu{
+display:flex;
+width:100%;
+text-align:center;
+margin:0 auto;
+flex-direction:row;
+}
+.menu a {
+flex:1;
+font-size:14px;
+text-align:center;
+padding:10px;
+color:white;
+background:olive;
+text-decoration:none;
+border-right:1px solid white;
+}
+.menu a:hover{
+background:gold;
+color:black;
+}
+
+.footer{
+height: 70px;
+background-color: grey;
+position: fixed;
+left: 0; bottom: 0;
+width: 100%
+}
+.right-col{
+margin-left:54px;	
+font-size: 22px;
+margin-top: 39px;
+}
+.boot{
+margin-bottom:100px;
+}
+.myclass{
+margin-bottom:100px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+
+.menu{
+ flex-direction:column;
+}
+.logo{
+ display:none;
+}
+.header{
+height:100px;
+}
+ }
